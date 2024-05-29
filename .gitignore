@@ -1,0 +1,5 @@
+_output/
+logs/
+log/logs/
+web/
+configs/config.yaml
