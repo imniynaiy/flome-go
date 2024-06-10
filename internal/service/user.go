@@ -1,9 +1,9 @@
 package service
 
 import (
-	"example.com/app-structure/internal/database"
-	"example.com/app-structure/internal/model"
-	"example.com/app-structure/internal/util"
+	"github.com/theoriz0/flome-go/internal/database"
+	"github.com/theoriz0/flome-go/internal/model"
+	"github.com/theoriz0/flome-go/internal/util"
 	"gorm.io/gorm"
 )
 

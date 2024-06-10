@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strings"
 
-	"example.com/app-structure/internal/util"
 	"github.com/gin-gonic/gin"
+	"github.com/theoriz0/flome-go/internal/util"
 )
 
 var authHeader = "Authorization"

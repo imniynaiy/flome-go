@@ -10,12 +10,12 @@ import (
 	"syscall"
 	"time"
 
-	"example.com/app-structure/internal/config"
-	ctl "example.com/app-structure/internal/controller/v1"
-	"example.com/app-structure/internal/log"
-	"example.com/app-structure/internal/middleware"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
+	"github.com/theoriz0/flome-go/internal/config"
+	ctl "github.com/theoriz0/flome-go/internal/controller/v1"
+	"github.com/theoriz0/flome-go/internal/log"
+	"github.com/theoriz0/flome-go/internal/middleware"
 )
 
 func Start() {

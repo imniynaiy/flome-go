@@ -3,8 +3,8 @@ package middleware
 import (
 	"time"
 
-	"example.com/app-structure/internal/log"
 	"github.com/gin-gonic/gin"
+	"github.com/theoriz0/flome-go/internal/log"
 )
 
 func Logger() gin.HandlerFunc {

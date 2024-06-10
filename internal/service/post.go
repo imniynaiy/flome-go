@@ -3,8 +3,8 @@ package service
 import (
 	"errors"
 
-	"example.com/app-structure/internal/database"
-	"example.com/app-structure/internal/model"
+	"github.com/theoriz0/flome-go/internal/database"
+	"github.com/theoriz0/flome-go/internal/model"
 	"gorm.io/gorm"
 )
 

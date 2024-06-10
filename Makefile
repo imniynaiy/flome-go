@@ -8,7 +8,7 @@ ROOT_DIR := $(abspath $(shell cd $(COMMON_SELF_DIR)/ && pwd -P))
 OUTPUT_DIR := $(ROOT_DIR)/_output
 
 ## 指定应用使用的 version 包，会通过 `-ldflags -X` 向该包中指定的变量注入值
-VERSION_PACKAGE=example.com/app-structure/internal/verflag
+VERSION_PACKAGE=github.com/theoriz0/flome-go/internal/verflag
 
 ## 定义 VERSION 语义化版本号
 ifeq ($(origin VERSION), undefined)

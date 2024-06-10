@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"strconv"
 
-	"example.com/app-structure/internal/log"
-	"example.com/app-structure/internal/middleware"
-	"example.com/app-structure/internal/model"
-	"example.com/app-structure/internal/service"
 	"github.com/gin-gonic/gin"
+	"github.com/theoriz0/flome-go/internal/log"
+	"github.com/theoriz0/flome-go/internal/middleware"
+	"github.com/theoriz0/flome-go/internal/model"
+	"github.com/theoriz0/flome-go/internal/service"
 )
 
 func AddPostRoutes(rg *gin.RouterGroup) {

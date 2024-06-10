@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"example.com/app-structure/internal/log"
 	"github.com/golang-jwt/jwt/v5"
+	"github.com/theoriz0/flome-go/internal/log"
 )
 
 var mySigningKey = []byte("MySigningKey")

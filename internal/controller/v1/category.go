@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"example.com/app-structure/internal/service"
+	"github.com/theoriz0/flome-go/internal/service"
 )
 
 func AddCategoryRoutes(rg *gin.RouterGroup) {

@@ -3,8 +3,8 @@ package database
 import (
 	"fmt"
 
-	"example.com/app-structure/internal/config"
-	"example.com/app-structure/internal/log"
+	"github.com/theoriz0/flome-go/internal/config"
+	"github.com/theoriz0/flome-go/internal/log"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

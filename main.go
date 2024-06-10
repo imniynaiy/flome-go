@@ -1,12 +1,12 @@
 package main
 
 import (
-	"example.com/app-structure/internal/config"
-	"example.com/app-structure/internal/database"
-	"example.com/app-structure/internal/flag"
-	"example.com/app-structure/internal/log"
-	"example.com/app-structure/internal/server"
-	"example.com/app-structure/internal/verflag"
+	"github.com/theoriz0/flome-go/internal/config"
+	"github.com/theoriz0/flome-go/internal/database"
+	"github.com/theoriz0/flome-go/internal/flag"
+	"github.com/theoriz0/flome-go/internal/log"
+	"github.com/theoriz0/flome-go/internal/server"
+	"github.com/theoriz0/flome-go/internal/verflag"
 )
 
 func main() {

@@ -3,9 +3,9 @@ package config
 import (
 	"log"
 
-	mylog "example.com/app-structure/internal/log"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
+	mylog "github.com/theoriz0/flome-go/internal/log"
 )
 
 var ConfigFile = pflag.StringP("config", "c", "./configs/config.yaml", "Set config file")
