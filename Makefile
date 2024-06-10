@@ -45,6 +45,10 @@ build: tidy # 编译源码，依赖 tidy 目标自动添加/移除依赖包.
 build-only: # 编译源码，不调用依赖 tidy 目标自动添加/移除依赖包.
 		@go build -v -ldflags "$(GO_LDFLAGS)" -o $(OUTPUT_DIR)/main $(ROOT_DIR)/main.go
 
+.PHONY: build-linux
+build-linux: tidy # 编译源码，依赖 tidy 目标自动添加/移除依赖包.
+		@GOOS=linux GOARCH=amd64 go build -v -ldflags "$(GO_LDFLAGS)" -o $(OUTPUT_DIR)/main $(ROOT_DIR)/main.go
+
 .PHONY: format
 format: # 格式化 Go 源码.
 		@gofmt -s -w ./
