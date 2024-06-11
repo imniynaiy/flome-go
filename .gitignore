@@ -3,3 +3,4 @@ logs/
 log/logs/
 web/
 configs/config.yaml
+__debug*
