@@ -64,3 +64,8 @@ clean: # 清理构建产物、临时文件等.
 .PHONY: run
 run: # 运行
 		@go run $(ROOT_DIR)
+
+.PHONY: docker
+docker: build-linux
+		@docker build --file build/Dockerfile .
+		

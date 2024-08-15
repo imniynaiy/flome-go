@@ -1,6 +1,6 @@
 FROM alpine
-COPY _output/dal /opt/dal/dal
-COPY configs /opt/dal/configs
-WORKDIR /opt/dal
+COPY _output/main /opt/flome/main
+COPY configs /opt/flome/configs
+WORKDIR /opt/flome
 EXPOSE 8081
-ENTRYPOINT ["/opt/dal/dal"]
+ENTRYPOINT ["/opt/flome/main"]
