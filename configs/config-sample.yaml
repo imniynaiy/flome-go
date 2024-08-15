@@ -3,6 +3,8 @@ server:
   release-mode: false
   cors: true
   static-path: ../flome-react/build
+  auth-salt: flomeiscool
+  jwt-signing-key: MySigningKey
 
 database:
   address: 127.0.0.1

@@ -17,10 +17,12 @@ type config struct {
 }
 
 type ServerConfig struct {
-	Port        string
-	ReleaseMode bool
-	Cors        bool
-	StaticPath  string `mapstructure:"static-path"`
+	Port          string
+	ReleaseMode   bool
+	Cors          bool
+	StaticPath    string `mapstructure:"static-path"`
+	AuthSalt      string `mapstructure:"auth-salt"`
+	JwtSigningKey string `mapstructure:"jwt-signing-key"`
 }
 
 type DatabaseConfig struct {

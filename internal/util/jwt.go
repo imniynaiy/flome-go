@@ -5,10 +5,11 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"
+	"github.com/theoriz0/flome-go/internal/config"
 	"github.com/theoriz0/flome-go/internal/log"
 )
 
-var mySigningKey = []byte("MySigningKey")
+var mySigningKey = []byte(config.GlobalConfig.Server.JwtSigningKey)
 
 type CustomClaims struct {
 	Username string
